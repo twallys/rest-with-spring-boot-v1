@@ -1,0 +1,5 @@
+package br.com.learning.data.model;
+
+public class Book {
+
+}

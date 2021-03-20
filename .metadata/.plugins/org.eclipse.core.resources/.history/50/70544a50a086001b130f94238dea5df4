@@ -1,0 +1,10 @@
+package br.com.learning.restwithspringbootv1;
+
+public class Greeting {
+	
+	private final long id;
+	private final String content;
+	
+	
+
+}

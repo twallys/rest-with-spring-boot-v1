@@ -1,0 +1,19 @@
+package br.com.learning.data.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="book")
+public class Book {
+	
+	private Long id;
+	private String author;
+	private Date launch_date;
+	private Double price;
+	private String title;
+	
+
+}

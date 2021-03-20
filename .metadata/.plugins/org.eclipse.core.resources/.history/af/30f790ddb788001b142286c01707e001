@@ -1,0 +1,5 @@
+package br.com.learning.security.jwt;
+
+public class JwtTokenFilter {
+
+}

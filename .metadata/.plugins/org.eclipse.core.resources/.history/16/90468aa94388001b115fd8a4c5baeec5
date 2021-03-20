@@ -1,0 +1,17 @@
+package br.com.learning.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.learning.data.vo.BookVO;
+import br.com.learning.repository.BookRepository;
+
+@Service
+public class BookService {
+	
+	@Autowired
+	BookRepository repository;
+	
+	public BookVO create(BookVO book)
+
+}

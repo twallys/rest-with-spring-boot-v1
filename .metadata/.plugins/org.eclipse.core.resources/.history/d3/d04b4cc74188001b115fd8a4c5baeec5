@@ -1,0 +1,14 @@
+package br.com.learning.data.model;
+
+import java.util.Date;
+
+public class Book {
+	
+	private Long id;
+	private String author;
+	private Date launch_date;
+	private Double price;
+	provate String title;
+	
+
+}

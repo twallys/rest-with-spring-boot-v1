@@ -1,0 +1,50 @@
+package br.com.learning.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicLong;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.rest.webmvc.ResourceNotFoundException;
+import org.springframework.stereotype.Service;
+
+import br.com.learning.model.Person;
+import br.com.learning.repository.PersonRepository;
+
+@Service
+public class PersonService {
+	
+	@Autowired
+	PersonRepository repository;
+
+	public Person create(Person person) {
+		return repository.save(person);
+	}
+	
+	public List<Person> findAll() {
+		return repository.findAll();
+	}
+	
+	public Person findById(Long id) {
+		return repository.findById(id)
+				.orElseThrow(() -> new ResourceNotFoundException("No records found for this ID"));
+	}
+	
+	public Person update(Person person) {
+		Person entity = new Person();
+		entity.setId(counter.incrementAndGet());
+		entity.setFirstName("Talles");
+		entity.setLastName("Reis");
+		entity.setAddress("Goiânia - GO - Brasil");
+		entity.setGender("Male");
+		return entity;
+		return entity;
+	}
+	
+	public void delete(String id) {
+		
+	}
+	
+	
+
+}

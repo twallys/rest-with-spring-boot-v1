@@ -1,0 +1,34 @@
+1615930733672	Rename type 'RestWithSpringBootV1Application'
+1616085785290	Rename type 'UnsuportedMathOperationException'
+1616085854097	Rename type 'GreetingController'
+1616088169065	Move compilation unit
+1616088177954	Delete element
+1616089616802	Rename package 'br.com.learning.restwithspringbootv1'
+1616092559024	Rename type 'UnsupportedMathOperationException'
+1616097843066	Copy compilation unit
+1616097867923	Rename type 'Person'
+1616097946697	Rename package 'br.com.learning.model'
+1616098202894	Rename type 'PersonVo'
+1616098701240	Move compilation unit
+1616098750278	Delete element
+1616098815707	Delete element
+1616102563331	Copy file
+1616102847560	Rename resource 'migrations'
+1616109949461	Rename resource 'V3__Create_Table_Books'
+1616110541756	Delete element
+1616113179223	Delete element
+1616118397026	Rename field 'username'
+1616118487789	Copy compilation unit
+1616118784831	Copy compilation unit
+1616173356826	Delete elements
+1616173380824	Delete element
+1616173458903	Move compilation units
+1616174915186	Move compilation units
+1616175493258	Delete element
+1616175501713	Delete element
+1616175516750	Move compilation units
+1616176427272	Rename type 'WebSecurityConfig'
+1616190071520	Copy compilation unit
+1616190126584	Copy compilation unit
+1616190153077	Copy compilation unit
+1616190267218	Copy compilation unit
